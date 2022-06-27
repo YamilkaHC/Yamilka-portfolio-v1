@@ -208,7 +208,7 @@ header strong {
     font-family: var(--fontDosis);
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 20px;
     text-align: justify;
     color: var(--babyBlue);
 }
@@ -353,6 +353,15 @@ footer {
     transition: transform 0.3s ease;
 }
 
+.social-img:hover {
+    transition: transform 0.5s ease;
+}
+
+
+.social-img:hover {
+    transform: scale(1.2)
+}
+
 .wrapper ul li a:hover:after {
     transform: scaleY(1);
 }
@@ -397,7 +406,7 @@ input[type="checkbox"] {
 }
 
 .pt-responsive {
-    padding-top: 3rem;
+    padding-top: 1rem;
 }
 
 .svg-menu {
@@ -531,12 +540,12 @@ input[type="checkbox"] {
 
 .carousel-indicators [data-bs-target] {
     border-radius: 50%;
-    height: 15px !important;
-    width: 15px !important;
+    height: 12px !important;
+    width: 12px !important;
     background-color: white !important;
 }
 
-.carousel-indicators .active{
+.carousel-indicators .active {
     background-color: var(--babyBlue) !important;
 }
 
@@ -547,7 +556,7 @@ input[type="checkbox"] {
 }
 
 .min-h-carousel {
-    min-height: 440px;
+    min-height: 300px;
 }
 
 .vscode {
@@ -591,7 +600,7 @@ input[type="checkbox"] {
 }
 
 .svg-git {
-    width: 13px;
+    width: 6px;
     height: 10px;
     fill: white;
     margin-left: 7px;
