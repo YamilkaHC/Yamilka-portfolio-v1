@@ -654,6 +654,9 @@ code {
     height: 407px;
 }
 
+.h-carousel{
+    height: 325px;
+}
 
 @media only screen and (max-width: 801px) {
     .width-90 {
@@ -730,6 +733,10 @@ code {
         gap: 0.5rem;
     }
 
+    
+.h-carousel{
+    height: 345px;
+}
 
 
     .box-skills {
@@ -741,6 +748,14 @@ code {
         font-size: 11px !important;
     }
 }
+
+@media only screen and (max-width: 500px) {
+
+.h-carousel{
+    height: 373px;
+}
+}
+
 
 @media only screen and (max-width: 400px) {
 
