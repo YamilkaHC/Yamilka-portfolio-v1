@@ -13,7 +13,6 @@
     --size30: 30px;
     --size20: 20px;
     --size40: 40px;
-
 }
 
 html {
@@ -352,12 +351,13 @@ footer {
     transition: transform 0.3s ease;
 }
 
-.social-img:hover {
+.social-img {
     transition: transform 0.5s ease;
+    transform: scale(1)
 }
 
-
 .social-img:hover {
+    transition: transform 0.5s ease;
     transform: scale(1.2)
 }
 
@@ -398,7 +398,6 @@ input[type="checkbox"] {
     0% {
         filter: hue-rotate(0deg);
     }
-
     100% {
         filter: hue-rotate(360deg);
     }
@@ -427,35 +426,28 @@ input[type="checkbox"] {
         width: 80% !important;
         margin: auto;
     }
-
     .ps-responsive {
         padding-left: 0rem !important;
     }
-
     .about-me {
         flex-direction: column !important;
         justify-content: center !important;
         align-items: center !important;
         margin: 5rem auto !important;
     }
-
     .flex-column-reverse-responsive {
         flex-direction: column-reverse !important;
     }
-
     .d-none-responsive {
         display: none !important;
     }
-
     .pt-responsive {
         padding-top: 1.1rem !important;
         padding-left: 1rem !important;
     }
-
     .d-block-responsive {
         display: block !important;
     }
-
     .nav-responsive {
         margin: .5rem 0px !important;
     }
@@ -567,7 +559,6 @@ input[type="checkbox"] {
     gap: 3rem;
 }
 
-
 .tab-git {
     font-size: 12px;
     padding: 10px 10px !important;
@@ -583,14 +574,13 @@ input[type="checkbox"] {
     border-bottom: none !important;
     font-size: 12px;
     padding-bottom: 11px !important;
-
 }
 
 .nav-tabs {
     border-bottom: none !important;
 }
 
-.m-t-90{
+.m-t-90 {
     margin-top: 90px;
 }
 
@@ -654,7 +644,7 @@ code {
     height: 407px;
 }
 
-.h-carousel{
+.h-carousel {
     height: 325px;
 }
 
@@ -662,39 +652,32 @@ code {
     .width-90 {
         width: 100%;
     }
-
     .section3 {
         display: flex;
         flex-direction: column;
         gap: 5rem;
         padding-top: 5rem;
     }
-
     .section3 .w-50 {
         width: 100% !important;
     }
-
     .vscode {
         position: relative;
         left: 0;
         width: 95% !important;
         margin: auto;
     }
-
     .vscode:hover {
         transform: none !important;
     }
 }
 
 @media (min-width: 576px) {
-
     .container,
     .container-sm {
         max-width: initial !important;
     }
 }
-
-
 
 @media only screen and (max-width: 600px) {
     .responsive-skills {
@@ -702,91 +685,73 @@ code {
         justify-content: space-between !important;
         width: 100% !important;
     }
-
     .sub-title {
         text-align: center;
     }
-
     .paragraph {
         margin-left: 1rem !important;
     }
-
     header h1 {
         font-size: 60px;
         margin: auto 1rem;
     }
-
     header strong {
         font-size: 60px;
     }
-
     header {
         height: 500px;
     }
-
     .img-me {
         width: 100%;
     }
-
     .row-box {
         margin-left: 0.5rem;
         gap: 0.5rem;
     }
-
-    
-.h-carousel{
-    height: 345px;
-}
-
-
+    .h-carousel {
+        height: 345px;
+    }
     .box-skills {
         padding: 2rem 1rem !important;
         grid-template-columns: repeat(auto-fill, 75px);
     }
-
     code {
         font-size: 11px !important;
     }
 }
 
 @media only screen and (max-width: 500px) {
-
-.h-carousel{
-    height: 373px;
+    .h-carousel {
+        height: 373px;
+    }
 }
-}
-
 
 @media only screen and (max-width: 400px) {
-
-    .m-t-90{
+    .m-t-90 {
         margin-top: 50px;
     }
     .page-img {
         width: 100%;
     }
-    .paragraph{
+    .paragraph {
         margin-left: 0rem !important;
     }
-
-    .lines{
+    .lines {
         display: none;
     }
     .box-skills {
         padding: 1.5rem 1rem !important;
-    justify-content: space-between;
-
+        justify-content: space-between;
         grid-template-columns: repeat(auto-fill, 55px);
     }
-    #section4{
+    #section4 {
         padding: 4rem 0px;
     }
-    
     .pt-responsive {
         padding-top: 2.1rem !important;
         padding-left: 1rem !important;
     }
-    .buttom-resume{
+    .buttom-resume {
         font-size: 0.7rem !important;
         width: 90px;
         border-width: 1px !important;
@@ -794,58 +759,45 @@ code {
     header {
         height: 475px !important;
     }
-
     .vs-body {
         height: 392px !important;
     }
-
     .vs-code-h {
         height: 350px;
     }
-
     .h-400px {
         height: 350px;
     }
-
     header h1 {
         font-size: 35px;
     }
-
     header strong {
         font-size: 35px;
     }
-
     .logo-responsive {
         width: 53px;
     }
-
     .svg-menu {
         top: 5px
     }
-
     .apple-img {
         width: 18px;
     }
-
     .apple-div {
         padding: 0px 0px 20px;
     }
-
-    :root {
+     :root {
         --size16: 14px;
         --size30: 25px;
         --size20: 16px;
         --size40: 30px
     }
-
     .typing {
         width: 252px;
         height: 25px;
         border-right: 1px solid;
     }
 }
-
-
 
 .nav-tabs .nav-link:focus,
 .nav-tabs .nav-link:hover {
