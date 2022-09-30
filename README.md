@@ -1,7 +1,7 @@
 ﻿# ✨ Yamilka WebSite ![Status badge](https://img.shields.io/badge/status-in%20progress-yellow)
 
 
-![Group 19](https://user-images.githubusercontent.com/83675050/178858907-f4c9ee3b-2c31-4698-ac5c-7c09cb3d2e7a.png)
+<!-- ![Group 19](https://user-images.githubusercontent.com/83675050/178858907-f4c9ee3b-2c31-4698-ac5c-7c09cb3d2e7a.png) -->
 
 
 ## 🦀 See the webSite 
