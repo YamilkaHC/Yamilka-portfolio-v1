@@ -1,8 +1,6 @@
-<h1 align="center">✨✨Hi 👋, I'm Yamilka Henriquez Cosme✨✨</h1>
-
 ![gif](https://user-images.githubusercontent.com/83675050/197414840-e010ae6b-20ac-45a4-ab03-72876bd0bace.gif)
 
-<h3 align="center">A passionate frontend developer from Dominican Republic</h3>
+<h3 align="center">I'm a passionate frontend developer from Dominican Republic</h3>
 
 - 🔭 I’m currently working on [Pokedux](https://github.com/YamilkaHC/Redux-course)
 
