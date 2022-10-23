@@ -18,6 +18,12 @@
 <a href="https://socket.io/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg" alt="typescript" width="40" height="40"/> </a>
 </p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=yamilkahc&show_icons=true&locale=en&layout=compact" alt="yamilkahc" /></p>
+
+<div style="    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;">
+<p><img align="left"     height="195px" src="https://github-readme-stats.vercel.app/api/top-langs?username=yamilkahc&show_icons=true&locale=en&layout=compact" alt="yamilkahc" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=yamilkahc&show_icons=true&locale=en" alt="yamilkahc" /></p>
+</div>
