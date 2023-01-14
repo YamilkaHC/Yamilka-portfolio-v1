@@ -2,7 +2,8 @@
 
 <h3 align="center">I'm a passionate frontend developer from Dominican Republic</h3>
 
-- 🔭 I’m currently working on [Pokedux](https://github.com/YamilkaHC/Redux-course)
+- 🔭 I’m currently working on [Perfecto App]
+<!-- (https://github.com/YamilkaHC/Redux-course) -->
 
 - 👨‍💻 All of my projects are available at [https://yamilkahc.github.io/YamilkaHC](https://yamilkahc.github.io/YamilkaHC)
 
@@ -10,7 +11,9 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/yamilka-henriquez-cosme-b4045314b/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/yamilka-henriquez-cosme-b4045314b/" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/https://www.linkedin.com/in/yamilka-henriquez-cosme-b4045314b/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/yamilka-henriquez-cosme-b4045314b/" height="30" width="40" />
+Yamilka Henriquez Cosme
+</a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
@@ -18,7 +21,7 @@
 <a href="https://socket.io/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg" alt="typescript" width="40" height="40"/> </a>
 </p>
 
-
+<!-- 
 <div style="    display: flex;
     justify-content: center;
     align-items: center;
@@ -26,4 +29,4 @@
 <p><img align="left"     height="195px" src="https://github-readme-stats.vercel.app/api/top-langs?username=yamilkahc&show_icons=true&locale=en&layout=compact" alt="yamilkahc" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=yamilkahc&show_icons=true&locale=en" alt="yamilkahc" /></p>
-</div>
+</div> -->

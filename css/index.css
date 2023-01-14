@@ -9,7 +9,7 @@
     --rose: #AF00C7;
     --transparentGray: rgba(196, 196, 196, 0);
     --tranparentBayBlue: rgba(156, 178, 255, 0.4);
-    --size16: 16px;
+    --size16: 15px;
     --size30: 30px;
     --size20: 20px;
     --size40: 40px;
@@ -25,6 +25,21 @@ html {
     font-family: var(--fontDosis) !important;
     font-size: var(--size16);
 }
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: rgba(255, 255, 255, 0.112); 
+}
+  
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #1d1835;
+    border-radius: 7px;
+  }
 
 body {
     overflow-x: hidden;
@@ -257,7 +272,7 @@ section {
 }
 
 footer {
-    background: linear-gradient(180deg, rgba(196, 196, 196, 0) 6.24%, rgba(156, 178, 255, 0.28) 106.24%);
+    /* background: linear-gradient(180deg, rgba(196, 196, 196, 0) 6.24%, rgba(156, 178, 255, 0.28) 106.24%); */
 }
 
 * {
@@ -421,7 +436,22 @@ input[type="checkbox"] {
     width: 45%;
 }
 
+.filter{
+    position: absolute;
+    top: 0;
+    max-width: 430px;
+    width: 90%;
+    left: 0;
+    height: 100%;
+    background: #9cb2ff24;
+}
+
 @media only screen and (max-width: 800px) {
+
+    .filter{
+        right: 0 !important;
+        left: initial;
+    }
     .w-50-responsive {
         width: 80% !important;
         margin: auto;
@@ -431,6 +461,13 @@ input[type="checkbox"] {
     }
     .about-me {
         flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: 5rem auto !important;
+    }
+
+    .about-me-reverse {
+        flex-direction: column-reverse !important;
         justify-content: center !important;
         align-items: center !important;
         margin: 5rem auto !important;
@@ -556,7 +593,8 @@ input[type="checkbox"] {
 }
 
 .responsive-skills {
-    gap: 3rem;
+    column-gap: 3rem;
+    row-gap: 10px;
 }
 
 .tab-git {
@@ -633,7 +671,7 @@ code {
 }
 
 .width-90 {
-    width: 90%;
+    width: 93%;
 }
 
 .h-400px {
@@ -649,6 +687,14 @@ code {
 }
 
 @media only screen and (max-width: 801px) {
+    .resp-align{
+        display: flex;
+        justify-content: end;
+    }
+    .mt-90-sm {
+        margin-top: 90px;
+    }
+    
     .width-90 {
         width: 100%;
     }
@@ -730,6 +776,10 @@ code {
     .m-t-90 {
         margin-top: 50px;
     }
+    .filter{
+        width: 100%;
+    }
+    
     .page-img {
         width: 100%;
     }
